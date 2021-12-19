@@ -1,0 +1,139 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 0.5rem;
+  margin-top: 10vh;
+}
+
+.Contact h1 {
+  padding: 0 1rem;
+  font-size: calc(18px + 0.5vw);
+  font-family: 'Fira-Sans-Bold';
+  line-height: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.25rem 0;
+  gap: 1rem;
+}
+
+.socials img {
+  background: white;
+  border: solid 2px white;
+  border-radius: 5px;
+  height: 1.75em;
+  max-height: 35px;
+}
+
+.socials img:hover {
+  box-shadow: 0 0 4px 4px white;
+}
+
+.Contact span {
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  border: solid 2px white;
+  margin-bottom: 1rem;
+  font-size: calc(13px + 0.5vw);
+  font-weight: bolder;
+  color: white;
+}
+
+.Contact form {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 480px;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.Contact form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact label {
+  margin-bottom: 0.5em;
+  font-size: calc(14px + 0.5vw);
+  font-family: 'Fira-Sans-Bolder';
+  color: white;
+}
+
+.Contact input {
+  width: 80%;
+  max-width: 300px;
+  min-width: 200px;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  margin-bottom: 1.25em;
+  font-size: calc(14px + 0.5vw);
+  font-family: 'Fira-Sans-Bold';
+}
+
+#message {
+  max-width: 450px;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  resize: none;
+  font-size: calc(14px + 0.5vw);
+  font-family: 'Fira-Sans-Bold';
+}
+
+.invalid {
+  background-color: rgb(252, 222, 222) !important;
+}
+
+.Contact button {
+  align-self: center;
+  width: fit-content;
+  padding: 0.5rem 1.25rem;
+  border: solid 2px white;
+  border-radius: 20px;
+  margin-top: 1rem;
+  font-size: calc(13px + 0.5vw);
+  font-family: 'Fira-Sans-Bolder';
+  color: white;
+  cursor: pointer;
+  background-color: black;
+}
+
+.Contact button:not([disabled]):hover {
+  color: black;
+  background-color: white;
+}
+
+.Contact button:disabled {
+  border: solid 2px rgb(82, 82, 82);
+  background-color: rgb(0, 0, 0);
+  color: rgb(82, 82, 82);
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 400px) {
+  .Contact h1 {
+    font-size: 22px;
+  }
+
+  .Contact label {
+    font-size: 18px;
+  }
+
+  .Contact button {
+    font-size: 15px;
+  }
+
+  .Contact input,
+  .Contact span,
+  #message {
+    font-size: 16px;
+  }
+}

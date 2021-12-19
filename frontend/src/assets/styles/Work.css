@@ -1,0 +1,102 @@
+.Work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 0 1rem;
+  margin-top: 2vh;
+  cursor: default;
+  row-gap: min(5vh, 30px);
+  column-gap: 5vh;
+  max-width: 1500px;
+}
+
+.Work-h1 {
+  font-family: 'Fira-Sans-Bolder';
+  font-size: calc(20px + 0.5vw);
+  color: white;
+  text-align: center;
+  margin-top: min(10vh, 100px);
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 95%;
+  max-height: 590px;
+  max-width: 480px;
+  border: solid 2px white;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+}
+
+.project img {
+  align-self: center;
+  width: 100%;
+}
+
+.project h2 {
+  font-family: 'Fira-Sans-Bolder';
+  font-size: calc(18px + 0.5vw);
+  margin-top: 1rem;
+}
+
+.project p {
+  font-family: 'Fira-Sans-Normal';
+  font-size: calc(13px + 0.5vw);
+  line-height: 1.5rem;
+  margin: 1vh 0;
+}
+
+.buttons {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: center;
+  gap: 5vmin;
+  margin: 0.5vh;
+}
+
+.project a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1.25rem;
+  border: solid 2px white;
+  border-radius: 20px;
+  font-family: 'Fira-Sans-Bolder';
+  font-size: calc(12px + 0.5vw);
+}
+
+.project a:hover {
+  color: black;
+  background-color: white;
+}
+
+@media screen and (min-width: 550px) {
+  .Work-h1 {
+    font-size: 22px;
+  }
+  .project h2 {
+    font-size: 22px;
+  }
+
+  .project p {
+    font-size: 16px;
+  }
+
+  .project a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .Work {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+}
