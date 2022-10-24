@@ -50,7 +50,7 @@ function Contact() {
             alt="gmail"
           />
         </a>
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/feyzanaydemir/"
           target="_blank"
           rel="noreferrer"
@@ -59,7 +59,7 @@ function Contact() {
             src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
             alt="linkedin"
           />
-        </a>
+        </a> */}
         <a
           href="https://www.github.com/feyzanaydemir/"
           target="_blank"

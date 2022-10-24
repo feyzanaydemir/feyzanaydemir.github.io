@@ -1,36 +1,36 @@
-import algorithmArtbookImg from './assets/algorithm-artbook.png';
+import processingGalleryImg from './assets/processing-gallery.png';
 import inventorySetImg from './assets/inventory-set.png';
 import anonifyImg from './assets/anonify.png';
 import gipostImg from './assets/gipost.png';
 
 export const projects = [
   {
-    image: algorithmArtbookImg,
-    title: 'Algorithm Artbook',
+    image: processingGalleryImg,
+    title: 'Processing Gallery',
     description:
-      'Gallery of artistic visualizations of various algorithms implemented in JavaScript. \
-      Technologies: Node.js, Express.js, JavaScript, HTML, CSS.',
-    liveUrl: 'https://algorithmartbook.herokuapp.com',
-    codeUrl: 'https://github.com/feyzanaydemir/algorithm-artbook',
+      'Collection of artistically visualized algorithms implemented in Python using Processing. \
+      Technologies: Python, Processing, Node.js, Express.js, CSS, EJS.',
+    liveUrl: 'https://processinggallery.onrender.com',
+    codeUrl: 'https://github.com/feyzanaydemir/processing-gallery',
   },
   {
     image: gipostImg,
     title: 'Gipost',
     description:
       'Social media application for sharing art related content. \
-      Features: Posting, commenting, liking, saving, deleting, searching, following, customizable profile pages, account update options. \
-      Technologies: React, Node.js, Express.js, MongoDB, CSS.',
-    liveUrl: 'https://gipost.herokuapp.com',
+      Overview: Posting, commenting, liking, saving, deleting, searching, following, profile pages, account updates, user authentication, database integration. \
+      Technologies: JavaScript, React, Node.js, Express.js, MongoDB, CSS.',
+    liveUrl: 'https://gipost.onrender.com',
     codeUrl: 'https://github.com/feyzanaydemir/gipost',
   },
   {
     image: inventorySetImg,
     title: 'Inventory Set',
     description:
-      'Inventory management system which provides stock control and item tracking. \
-      Features: Custom item categorizing, filtered searching, adding new items and categories, editing existing information. \
-      Technologies: React, Node.js, Express.js, MongoDB, CSS.',
-    liveUrl: 'https://inventoryset.herokuapp.com',
+      'Inventory management system. \
+      Overview: Item adding, editing, deleting, categorizing, filtered searching, user authentication, database integration. \
+      Technologies: JavaScript, React, Node.js, Express.js, MongoDB, CSS, JWT.',
+    liveUrl: 'https://inventoryset.onrender.com',
     codeUrl: 'https://github.com/feyzanaydemir/inventory-set',
   },
   {
@@ -38,9 +38,9 @@ export const projects = [
     title: 'Anonify',
     description:
       'Anonymous messaging application. \
-      Features: User authentication and authorization with JWT, restricted author and timestamp visibility, account upgrades via membership and moderation codes. \
-      Technologies: Node.js, Express.js, MongoDB, CSS.',
-    liveUrl: 'https://anonify.herokuapp.com',
+      Overview: Posting and deleting content, authentication, restricted author and timestamp visibility, account upgrades via membership and moderation codes, database integration. \
+      Technologies: JavaScript, Node.js, Express.js, MongoDB, CSS, EJS.',
+    liveUrl: 'https://anonify.onrender.com',
     codeUrl: 'https://github.com/feyzanaydemir/anonify',
   },
 ];
