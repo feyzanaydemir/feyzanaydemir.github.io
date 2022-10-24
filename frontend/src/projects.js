@@ -18,7 +18,7 @@ export const projects = [
     title: 'Gipost',
     description:
       'Social media application for sharing art related content. \
-      Overview: Posting, commenting, liking, saving, deleting, searching, following, profile pages, account updates, user authentication, database integration. \
+      Overview: Posting, commenting, liking, saving, deleting, searching, following, profile pages, account updates. \
       Technologies: JavaScript, React, Node.js, Express.js, MongoDB, CSS.',
     liveUrl: 'https://gipost.onrender.com',
     codeUrl: 'https://github.com/feyzanaydemir/gipost',
@@ -28,7 +28,7 @@ export const projects = [
     title: 'Inventory Set',
     description:
       'Inventory management system. \
-      Overview: Item adding, editing, deleting, categorizing, filtered searching, user authentication, database integration. \
+      Overview: Item adding, editing, deleting, categorizing, searching with keywords and filters. \
       Technologies: JavaScript, React, Node.js, Express.js, MongoDB, CSS, JWT.',
     liveUrl: 'https://inventoryset.onrender.com',
     codeUrl: 'https://github.com/feyzanaydemir/inventory-set',
@@ -38,7 +38,7 @@ export const projects = [
     title: 'Anonify',
     description:
       'Anonymous messaging application. \
-      Overview: Posting and deleting content, authentication, restricted author and timestamp visibility, account upgrades via membership and moderation codes, database integration. \
+      Overview: Posting and deleting content, restricted author and timestamp visibility, account upgrades via membership and moderation codes. \
       Technologies: JavaScript, Node.js, Express.js, MongoDB, CSS, EJS.',
     liveUrl: 'https://anonify.onrender.com',
     codeUrl: 'https://github.com/feyzanaydemir/anonify',
