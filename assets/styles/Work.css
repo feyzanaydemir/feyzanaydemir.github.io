@@ -16,6 +16,7 @@
   color: white;
   text-align: center;
   margin-top: min(10vh, 100px);
+  cursor: default;
 }
 
 .project {
