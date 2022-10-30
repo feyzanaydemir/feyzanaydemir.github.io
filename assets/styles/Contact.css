@@ -1,20 +1,3 @@
-.Contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1;
-  padding: 0.5rem;
-  margin-top: 10vh;
-}
-
-.Contact h1 {
-  padding: 0 1rem;
-  font-size: calc(18px + 0.5vw);
-  font-family: 'Fira-Sans-Bold';
-  line-height: 1.5rem;
-  text-align: center;
-  color: white;
-}
 
 .socials {
   display: flex;
@@ -29,31 +12,10 @@
   background: white;
   border: solid 2px white;
   border-radius: 5px;
-  height: 1.75em;
+  height: 1.65em;
   max-height: 35px;
 }
 
 .socials img:hover {
   box-shadow: 0 0 4px 4px white;
-}
-
-
-@media screen and (min-width: 400px) {
-  .Contact h1 {
-    font-size: 22px;
-  }
-
-  .Contact label {
-    font-size: 18px;
-  }
-
-  .Contact button {
-    font-size: 15px;
-  }
-
-  .Contact input,
-  .Contact span,
-  #message {
-    font-size: 16px;
-  }
 }

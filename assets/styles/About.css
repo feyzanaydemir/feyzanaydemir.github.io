@@ -1,29 +1,29 @@
-.About {
+.about {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
-  padding: 3vh 1rem 0 1rem;
-  margin-top: 10vh;
+  padding: 0 1rem;
+  margin-top: max(5vh, 50px);
   color: white;
   text-align: center;
   cursor: default;
 }
 
-.About h1 {
+.about h1 {
   margin-bottom: 1rem;
   font-size: calc(45px + 0.5vw);
   font-family: 'Fira-Sans-Bolder';
   line-height: 3.5rem;
 }
 
-.About h2 {
+.about h2 {
   margin-bottom: 2rem;
   font-size: calc(20px + 0.5vw);
   font-family: 'Fira-Sans-Bold';
 }
 
-.About p {
+.about p {
   max-width: 720px;
   padding: 0 1rem 1rem 1rem;
   border-radius: 20px;
@@ -32,22 +32,22 @@
   line-height: 2rem;
 }
 
-.About button {
+.about button {
   padding: 0.5rem 1rem;
   text-decoration: none;
   cursor: pointer;
 }
 
 @media screen and (min-width: 400px) {
-  .About h1 {
+  .about h1 {
     font-size: 50px;
   }
 
-  .About h2 {
+  .about h2 {
     font-size: 22px;
   }
 
-  .About p {
+  .about p {
     font-size: 18px;
   }
 }

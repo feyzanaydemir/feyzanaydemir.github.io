@@ -1,4 +1,4 @@
-.Work {
+.projects {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +10,7 @@
   max-width: 1500px;
 }
 
-.Work-h1 {
+h3 {
   font-family: 'Fira-Sans-Bolder';
   font-size: calc(20px + 0.5vw);
   color: white;
@@ -26,7 +26,6 @@
   align-items: center;
   padding: 1rem;
   width: 95%;
-  max-height: 590px;
   max-width: 480px;
   border: solid 2px white;
   border-radius: 20px;
@@ -77,11 +76,12 @@
 }
 
 @media screen and (min-width: 550px) {
-  .Work-h1 {
+  .projects-h1 {
     font-size: 22px;
   }
+  
   .project h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .project p {
@@ -94,7 +94,7 @@
 }
 
 @media screen and (min-width: 980px) {
-  .Work {
+  .projects {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: stretch;
