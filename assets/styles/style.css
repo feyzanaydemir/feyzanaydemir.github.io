@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1;
+  flex: inherit;
   padding: 0 1rem;
   margin-top: max(5vh, 50px);
   color: white;
@@ -76,19 +76,31 @@
   min-height: fit-content;
 }
 
-.socials div {
+/* .socials div {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   font-weight: bolder;
+  font-size: 1.4rem;
+  text-decoration: none;
+} */
+
+.socials a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
 }
 
 .socials img {
   background: white;
   border: solid 2px white;
   border-radius: 5px;
-  height: 1.65em;
-  max-height: 35px;
+  height: 1.5em;
+  max-height: 32px;
 }
 
 .socials img:hover {
@@ -109,7 +121,7 @@
 
 h3 {
   font-family: 'Fira-Sans-Bolder';
-  font-size: calc(20px + 0.5vw);
+  font-size: calc(22px + 0.5vw);
   color: white;
   text-align: center;
   margin-top: min(10vh, 100px);
@@ -146,6 +158,7 @@ h3 {
   font-size: calc(13px + 0.5vw);
   line-height: 1.5rem;
   margin: 1vh 0;
+  text-align: left;
 }
 
 .buttons {
